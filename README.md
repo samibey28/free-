@@ -118,3 +118,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+

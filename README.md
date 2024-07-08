@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Webseite</title>
+    <title>Free V-bucks</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -55,7 +55,7 @@
     </nav>
     <div class="content">
         <h2>Home</h2>
-        <p>Dies ist eine Beispiel-Webseite.</p>
+        <p>um v-bucks zu bekommen gebe kontaktinformationen wie die telefonnummer ein ein passwort in der hinsicht wird nicht benötigt.</p>
         <h2>Über mich</h2>
         <p>Hier könntest du Informationen über dich hinzufügen.</p>
         <h2>Kontakt</h2>

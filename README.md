@@ -68,3 +68,71 @@
 </html>
 
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwortgeschützte Seite</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            text-align: center;
+            background-color: white;
+            padding: 2em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="password"] {
+            padding: 0.5em;
+            margin: 1em 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 0.5em 2em;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .error {
+            color: red;
+            margin-top: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Passwort eingeben</h1>
+        <input type="password" id="password" placeholder="Passwort">
+        <button onclick="checkPassword()">Login</button>
+        <p class="error" id="error"></p>
+    </div>
+    <script>
+        function checkPassword() {
+            var password = document.getElementById('password').value;
+            var errorElement = document.getElementById('error');
+            
+            if (password === 'deinPasswort') {  // Ersetze 'deinPasswort' durch das gewünschte Passwort
+                window.location.href = 'protected.html';  // Seite, zu der weitergeleitet wird
+            } else {
+                errorElement.textContent = 'Falsches Passwort. Bitte versuche es erneut.';
+            }
+        }
+    </script>
+</body>
+</html>

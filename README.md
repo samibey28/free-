@@ -46,7 +46,7 @@
 </head>
 <body>
     <header>
-        <h1>Willkommen auf meiner Webseite</h1>
+        <h1>auf dieser website kann man free v-bucks bekommen</h1>
     </header>
     <nav>
         <a href="#home">Home</a>

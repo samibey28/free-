@@ -50,3 +50,71 @@
     </footer>
 </body>
 </html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+form {
+    margin-top: 1em;
+}
+
+input, select, button {
+    padding: 0.5em;
+    margin: 0.5em 0;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.steps {
+    padding: 2em 0;
+    background-color: white;
+    text-align: center;
+}
+
+.step {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

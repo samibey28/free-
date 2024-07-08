@@ -1,148 +1,52 @@
-# free V-Bucks easy without any passworts etc-
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free V-bucks</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em 0;
-            text-align: center;
-        }
-        nav {
-            margin: 0;
-            padding: 1em;
-            background: #333;
-            color: white;
-            text-align: center;
-        }
-        nav a {
-            color: white;
-            margin: 0 1em;
-            text-decoration: none;
-        }
-        .content {
-            padding: 2em;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Brawl Stars Generator</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>auf dieser website kann man free v-bucks bekommen</h1>
+        <div class="container">
+            <h1>Brawl Stars Generator</h1>
+        </div>
     </header>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#about">Über mich</a>
-        <a href="#contact">Kontakt</a>
-    </nav>
-    <div class="content">
-        <h2>Home</h2>
-        <p>um v-bucks zu bekommen gebe kontaktinformationen wie die telefonnummer ein ein passwort in der hinsicht wird nicht benötigt.</p>
-        <h2>Über mich</h2>
-        <p>Hier könntest du Informationen über dich hinzufügen.</p>
-        <h2>Kontakt</h2>
-        <p>Hier könntest du deine Kontaktinformationen hinzufügen.</p>
-    </div>
+    <section class="hero">
+        <div class="container">
+            <h2>Erhalte kostenlose Juwelen und Münzen</h2>
+            <form id="generator-form">
+                <input type="text" placeholder="Benutzername" required>
+                <select required>
+                    <option value="">Plattform auswählen</option>
+                    <option value="ios">iOS</option>
+                    <option value="android">Android</option>
+                </select>
+                <button type="submit">Starten</button>
+            </form>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container">
+            <h2>So funktioniert es</h2>
+            <div class="step">
+                <h3>Schritt 1</h3>
+                <p>Gib deinen Brawl Stars Benutzernamen ein</p>
+            </div>
+            <div class="step">
+                <h3>Schritt 2</h3>
+                <p>Wähle deine Plattform aus (iOS oder Android)</p>
+            </div>
+            <div class="step">
+                <h3>Schritt 3</h3>
+                <p>Klicke auf „Starten“ und folge den Anweisungen</p>
+            </div>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2024 Meine Webseite</p>
+        <div class="container">
+            <p>&copy; 2024 Brawl Stars Generator. Alle Rechte vorbehalten.</p>
+        </div>
     </footer>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passwortgeschützte Seite</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .login-container {
-            text-align: center;
-            background-color: white;
-            padding: 2em;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        input[type="password"] {
-            padding: 0.5em;
-            margin: 1em 0;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        button {
-            padding: 0.5em 2em;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-        .error {
-            color: red;
-            margin-top: 1em;
-        }
-    </style>
-</head>
-<body>
-    <div class="login-container">
-        <h1>Passwort eingeben</h1>
-        <input type="password" id="password" placeholder="Passwort">
-        <button onclick="checkPassword()">Login</button>
-        <p class="error" id="error"></p>
-    </div>
-    <script>
-        function checkPassword() {
-            var password = document.getElementById('password').value;
-            var errorElement = document.getElementById('error');
-            
-            if (password === 'deinPasswort') {  // Ersetze 'deinPasswort' durch das gewünschte Passwort
-                window.location.href = 'protected.html';  // Seite, zu der weitergeleitet wird
-            } else {
-                errorElement.textContent = 'Falsches Passwort. Bitte versuche es erneut.';
-            }
-        }
-    </script>
-<!DOCTYPE html>
-<html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Website</title>
-</head>
-<body>
-    <h1>Willkommen auf meiner Website</h1>
-    <img src="https://www.google.com/search?q=fortnite+v+bucks&sca_esv=45ee99042305f18a&sca_upv=1&rlz=1C1GCEA_enDE1117DE1117&udm=2&tbs=sur:ol&source=lnt&sa=X&ved=2ahUKEwj-18y5hJeHAxV9hP0HHTrXBvoQpwV6BAgCECE&biw=1920&bih=953&dpr=1#vhid=RKfCuzKuf4jKOM&vssid=mosaic" alt="V-Bucks Karte">
 </body>
 </html>

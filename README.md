@@ -143,7 +143,6 @@
 </head>
 <body>
     <h1>Willkommen auf meiner Website</h1>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2F157592935%40N03%2F40773387924&psig=AOvVaw211NAdJVY1qTDUCx-zIRKY&ust=1720514162540000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCLCJre2El4cDFQAAAAAdAAAAABAE
-        " alt="V-Bucks Karte">
+    <img src="https://www.google.com/search?q=fortnite+v+bucks&sca_esv=45ee99042305f18a&sca_upv=1&rlz=1C1GCEA_enDE1117DE1117&udm=2&tbs=sur:ol&source=lnt&sa=X&ved=2ahUKEwj-18y5hJeHAxV9hP0HHTrXBvoQpwV6BAgCECE&biw=1920&bih=953&dpr=1#vhid=RKfCuzKuf4jKOM&vssid=mosaic" alt="V-Bucks Karte">
 </body>
 </html>
